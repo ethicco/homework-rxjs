@@ -1,4 +1,4 @@
 export interface IParamText {
   text: string;
-  hub: string;
+  hub: 'github' | 'gitlab';
 }

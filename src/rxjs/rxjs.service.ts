@@ -33,7 +33,7 @@ export class RxjsService {
       .pipe(take(count));
   }
 
-  async searchRepositoriesGithub(
+  async searchRepositories(
     text: string,
     hub: 'github' | 'gitlab',
   ): Promise<any> {
